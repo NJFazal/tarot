@@ -1,11 +1,11 @@
-Project Title
+Tarot Card Reader
 ✨Description: 
-This is a tarot card reader in progress
+This is a tarot card reader that gives a simple three card reading with flip cards and a reshuffle button. The images were open source from the Rider-Waite Smith Tarot Cards deck. I created the background image with an ai generator. This is a work in progress.
 💻How To Run:
-Simply open the HTML file.
-
+Simply open the HTML file for now
+Alternatively, you can view it here: https://tarot-card-reader.netlify.app/
 🚧Roadmap to Future Improvements: 
-I will be converting this to a react app soon
+I will be converting this to a react app soon. I will likely also add more reading patterns. 
 📜License:
 MIT License
 
