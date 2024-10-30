@@ -6,7 +6,7 @@ html {
 body {
   justify-content: center;
   align-items: center;
-  background: url('images/background.png') center/cover no-repeat;
+  background: url('images/background.png') center/cover repeat;
   background-size: cover;
 }
 
