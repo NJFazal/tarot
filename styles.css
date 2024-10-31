@@ -133,22 +133,6 @@ h1, h3, p {
   }
 }
 
-@media (max-width: 768px) {
-  h1, h3, p {
-    font-size: 1.2em;
-  }
-  #tarotSpread {
-    gap: 10px;
-  }
-  .flip-card {
-    width: 120px;
-    height: 200px;
-  }
-  #cardReadingContainer {
-    width: 95vw;
-  }
-}
-
 @media (max-width: 480px) {
   h1, h3, p {
     font-size: 1em;
@@ -158,8 +142,15 @@ h1, h3, p {
     font-size: 0.9em;
   }
   .flip-card {
-    width: 100px;
-    height: 160px;
+    width: 90px; /* Smaller card width */
+    height: 140px; /* Smaller card height */
+  }
+  .card-img-top {
+    width: 90px; /* Match flip-card width */
+    height: 140px; /* Match flip-card height */
+  }
+  #tarotSpread {
+    gap: 8px; /* Smaller gap between cards */
   }
   #cardReadingContainer {
     width: 95vw;
