@@ -8,7 +8,7 @@ function createTarotSpread() {
         {"cardBack": "images/back.jpg", "cardImage": "images/lovers.jpg", "cardTitle": "The Lovers", "cardReading": "harmony, trust,romance, optimism, honor, love, harmony"},
         {"cardBack": "images/back.jpg", "cardImage": "images/hermit.jpg", "cardTitle": "The Hermit", "cardReading": "inner strength, prudence, withdrawal, caution, vigilance."},
         {"cardBack": "images/back.jpg", "cardImage": "images/chariot.jpg", "cardTitle": "The Chariot", "cardReading": "perseverance, rushed decision, turmoil, vengeance, adversity"},        
-        {"cardBack": "images/back.jpg", "cardImage": "images/strenght.jpg", "cardTitle": "Strength", "cardReading": "courage, conviction, strength, determination, action, heroism, virility"},
+        {"cardBack": "images/back.jpg", "cardImage": "images/strength.jpg", "cardTitle": "Strength", "cardReading": "courage, conviction, strength, determination, action, heroism, virility"},
         {"cardBack": "images/back.jpg", "cardImage": "images/justice.jpg", "cardTitle": "Justice", "cardReading": "equality, righteousness, virtue, honor, harmony, balance"},
         {"cardBack": "images/back.jpg", "cardImage": "images/wheeloffortune.jpg", "cardTitle": "The Wheel of Fortune", "cardReading": "unexpected events, advancement, destiny, fortune, progress"},
         {"cardBack": "images/back.jpg", "cardImage": "images/moon.jpg", "cardTitle": "The Moon", "cardReading": "Upright:double-dealing Deception, disillusionment, trickery, error, danger, disgrace"},
