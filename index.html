@@ -17,9 +17,13 @@
     </head>
     <body>
         <h1 class="pirata-one-regular">Tarot Card Reader</h1>
-            <div id="tarotSpread"></div>
-            <div id="cardReading"></div>
             <button class="refresh-button">Tempt Fate</button>
+        <div class="tarot-container">
+            <div id="tarotSpread"></div>
+        </div>
+        <div id="cardReadingContainer">
+            <div id="cardReading"></div>
+        </div>
             <script>
                 const refreshButton = document.querySelector('.refresh-button');
                 const refreshPage = () => {

@@ -85,37 +85,34 @@ function createTarotSpread() {
     let selectedCards = tarotCard.slice(0, 3);
 
     let tarotHTML = selectedCards.map((card, index) => `
-        <div class="flip-card" id="card-${index}">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <img class="card-img-top" src="${card.cardBack}" alt="Card back">
-                </div>
-                <div class="flip-card-back">
-                    <img class="card-img-top" src="${card.cardImage}" alt="Card front">
-                </div>
+    <div class="flip-card" id="card-${index}">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img class="card-img-top" src="${card.cardBack}" alt="Card back">
+            </div>
+            <div class="flip-card-back">
+                <img class="card-img-top" src="${card.cardImage}" alt="Card front">
             </div>
         </div>
-    `).join('');
+    </div>
+`).join('');
 
     document.getElementById('tarotSpread').innerHTML = tarotHTML;
 
-    // Array to hold readings of flipped cards
     let flippedReadings = [];
 
-    // Adds click event listeners to each card
     selectedCards.forEach((card, index) => {
         document.getElementById(`card-${index}`).addEventListener('click', function() {
             this.classList.toggle('flipped');
 
             if (this.classList.contains('flipped')) {
-                // Add this card's reading if it's flipped
+               
                 flippedReadings.push(`<h3 class="bree-serif-regular">${card.cardTitle}</h3><p class="bree-serif-regular">${card.cardReading}</p>`);
             } else {
-                // Remove this card's reading if it's flipped back
+                
                 flippedReadings = flippedReadings.filter(reading => !reading.includes(card.cardTitle));
             }
 
-            // Update the card reading div with all flipped readings
             document.getElementById('cardReading').innerHTML = flippedReadings.join('');
         });
     });
